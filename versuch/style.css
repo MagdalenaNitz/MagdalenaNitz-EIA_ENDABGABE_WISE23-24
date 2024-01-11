@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: #fff;
+    color: rgb(255, 255, 255)
 }
 
 .header {
@@ -33,7 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 5px;
-    background-color: #4CAF50;
+    background-color: #13c3de;
     color: #fff;
     font-size: 16px;
     border-radius: 5px;

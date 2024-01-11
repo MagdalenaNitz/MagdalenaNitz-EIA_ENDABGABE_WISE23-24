@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (selectedNumber === zufallszahl) {
             outputElement.innerText = `Herzlichen Glückwunsch! Du hast die Zahl ${selectedNumber} gefunden.`;
-            element.style.backgroundColor = '#FFC0CB'; // Pink für gesuchte Zahl
+            element.style.backgroundColor = '#13de1a'; // Grün für gesuchte Zahl
             
             // Deaktiviere Klicks nach Auswahl
             element.removeEventListener('click', function() {
@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 element.style.backgroundColor = '#4CAF50'; // Zurücksetzen der Hintergrundfarbe
                 numberContainer.innerHTML = ''; // Lösche vorhandene Zahlen
                 starteNeueRunde(); // Starte eine neue Runde
-            }, 2000); // 2000 Millisekunden (2 Sekunden) Verzögerung
+            }, 5000); // 5000 Millisekunden (5 Sekunden) Verzögerung
         } else if (selectedNumber < zufallszahl) {
             outputElement.innerText = `Die gesuchte Zahl ist größer als ${selectedNumber}.`;
-            element.style.backgroundColor = '#0000FF'; // Blau für größer
+            element.style.backgroundColor = '#9500ff'; // Lila für größer
         } else {
             outputElement.innerText = `Die gesuchte Zahl ist kleiner als ${selectedNumber}.`;
             element.style.backgroundColor = '#FF0000'; // Rot für kleiner
