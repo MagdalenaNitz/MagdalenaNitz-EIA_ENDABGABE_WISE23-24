@@ -5,16 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script defer src="./script.js"></script>
-    <title>Zahlenspiel</title>
+    <title>Mission Impossible?</title>
 </head>
 <body>
     <div class="header">
-        <h1>Zahlenspiel</h1>
-        <p id="output">Geben Sie eine Zahl zwischen 1 und 100 ein.</p>
+        <h1>Mission Impossible?</h1>
+        <p id="output">Wähle eine Zahl zwischen 1 und 100 ein.</p>
     </div>
     
     <div class="content" id="numberContainer">
         <!-- Nummern werden hier über JavaScript hinzugefügt -->
     </div>
+
+    <div class="question" id="question">
+        <p> Möchtest du noch eine Runde spielen?</p>
+        <button id="jaButton">Ja</button>
+        <button id="neinButton">Nein</button>
+    </div>
+
+    <div class="instructions">
+        <h3> Deine Aufgabe!</h3>
+        <p>Du hast vor dir ein Feld mit den Zahlen von 1-100. Deine Aufgabe ist es, die vom Zauberer verzauberte Zahl auf dem Spielfeld zu finden.</p> 
+        <p>In dem du eine Zahl anklickst, erfährst du, ob die gesuchte Zahl größer oder kleiner als deine ist oder ob du sie gerade gefunden hast. </p>  
+    </div>
+
+    <div class="tip">
+        <h3> Tipp vom Zauberer!</h3>
+    </div>
+
+    <div class="tips">
+        <p>= gesuchte Zahl ist größer </p>
+        <p>= gesuchte Zahl ist kleiner</p>
+        <p>= richtige Zahl gefunden</p>
+    </div>
+
+    <div class="square red"></div>
+    <div class="square green"></div>
+    <div class="square purple"></div>
+
+    <img src="/Endabgabe/giphy.gif" width="500px">
+
 </body>
 </html>
