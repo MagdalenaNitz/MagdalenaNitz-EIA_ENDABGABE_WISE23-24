@@ -75,12 +75,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         neinButton.addEventListener('click', function() {
-            question.innerHTML = <p>Bist du dir ganz sicher?Wenn du den Zauberer doch nochmal besiegen möchtest, dann klicke auf <button id="nochmalButton">Nochmal</button>.</p>
-            const nochmalButton = document.getElementById ('nochmalButton');
-            nochmalButton.addEventListener ('click', function(){
-                question.style.display = 'none';
-                zurücksetztenSpiel ();    
-            })               
+            question.style.display = 'none';
+            const outputElement = document.getElementById('output');
+            outputElement.innerText = 'Bis zum nächsten Mal! Wenn du dich doch umentschieden hast, dann lade die Seite neu.';
         });
     }
 
