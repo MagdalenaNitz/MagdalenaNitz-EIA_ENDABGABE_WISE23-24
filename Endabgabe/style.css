@@ -1,3 +1,5 @@
+@media only screen and (max-width: 1279px) {
+    /*For mobile phones: */ }
 body {
     margin: 0;
     overflow: hidden;
@@ -166,3 +168,6 @@ img {
 #question {
     display: none;
 }
+
+@media  screen and  (min-width: 1280px){
+}   
