@@ -1,5 +1,5 @@
 body {
-    max-width: 1200px;
+    margin: 0;
     overflow: hidden;
     background-color: rgb(12, 50, 93); 
     display: flex;
